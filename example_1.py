@@ -14,6 +14,6 @@ import numpy as np
 
 def sorted_random_array(n):
     x = np.random.random(n)
-    return x.sort()
+    return np.sort(x)
 
 print("Sorted random values: ", sorted_random_array(10))
